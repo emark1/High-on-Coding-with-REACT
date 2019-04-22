@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.categorybuttons {
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #dddee0;
+  display: inline-block;
+  margin: 15;
+}
+
+.categoryseperator {
+
+}
+.categorytable {
+  padding: 50px;
+}
+.banner {
+  background-color: #63a7f3;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.mainarticle {
+  background-color: #dddee0;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+
+}
+
+.mainarticletitle {
+  color: #54585e;
+  font-size: 30px;
+
+}
+
+.articlesdivision {
+  padding-left: 20;
+  padding-right: 20;
+  padding-top: 10;
+}
+.commentbanner {
+  background-color: #e7943b;
+  padding-top:5px;
+  padding-left:5px;
+  padding-bottom:5px;
+}
+
+.commentfont{
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.articletitles {
+  font-size:25px;
+  color: #2466ba;
+}
+.titlefont {
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+  display: inline;
+}
+
+a {
+  padding: 20px;
+  display: inline;
+}
+
+a.linkfontbold:link{
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.linkfontbold:visited{
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.linkfontbold:active{
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.linkfontbold:hover{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+a.linkfontthin:link{
+
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.linkfontthin:visited{
+
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.linkfontthin:active{
+  
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.linkfontthin:hover{
+  
+  text-decoration: underline;
+  color: #ffffff;
+}
